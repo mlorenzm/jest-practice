@@ -4,10 +4,4 @@ function capitalize(str) {
   }
 }
 
-function reverseString(str) {
-  if (str) {
-    return str.split("").reverse().join("");
-  }
-}
-
 module.exports = capitalize;
